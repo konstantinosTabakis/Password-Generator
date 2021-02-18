@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Password Generator</h1>
+        <div class="options">
+
+            <label for="length">Choose the length of the password</label>
+            <select name="" id="length">
+                <option value="6" selected>6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+            </select>
+        </div>
+        <div class="options">
+
+            <label for="special">Include special characters </label>
+            <input type="checkbox" name="" id="special">
+        </div>
+        <div class="options">
+
+            <button id="generate"> Generate password</button>
+        </div>
+        <div class="options">
+
+            <div id="showPassword">Generate a new password </div>
+            <button id="copy">Copy</button>
+        </div>
+        
+
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

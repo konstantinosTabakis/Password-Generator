@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #487e95;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 50%;
+    height: 70vh;
+    margin: 0 auto;
+    background-color: #f4f5db;
+    border-radius: 10px;
+}
+#container h1{
+    text-align: center;
+    color: #487e95;
+}
+label{
+    margin-right: 10px;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    color: #c5c5a2;
+    margin: 0 0 20px 0;
+}
+#generate{
+    padding: 20px;
+    /* border: none; */
+    background-color: #a0c1b8;
+    border-radius: 100%;
+    font-size: 15px;
+    color: white;
+}
+#generate:focus{
+    outline: none;
+}
+#generate:hover{
+    background-color: #487e95;
+}
+#showPassword{
+    height: 30px;
+    width: 80%;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-flex;
+    color: black;
+
+}
+#copy{
+    background-color: #a0c1b8;
+    color: white;
+    padding: 6px;
+}
+@media only screen and (max-width: 768px) {
+    #container{
+        height: 80vh;
+    }
+    body{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .options{
+        flex-direction: column;
+    }
+    #container{
+        width: 100%;
+    }
+    #showPassword{
+        width: 100%;
+    }
+}
